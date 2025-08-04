@@ -23,7 +23,7 @@ Use Nmap to scan the local network and identify open ports and services to under
   - HTTP/HTTPS: Boa HTTPd 0.93.15 (vulnerable)
 - Notes: Admin panel exposed; outdated server software
 
-### 192.168.1.11 (parushuram)
+### 192.168.1.11 
 - Open Port: 7070 (ssl/realserver?)
 - Notes: Unknown service, possibly media or IoT device
 

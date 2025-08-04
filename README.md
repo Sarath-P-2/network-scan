@@ -11,8 +11,13 @@ Use Nmap to scan the local network and identify open ports and services to under
 ## Network Range
 `192.168.1.0/24` 
 
-## Summary of Hosts Found
+## Summary of Hosts Found & Screenshots
 - Total hosts up: 13
+- ![Full Network Scan](screenshot_full_scan.png)
+![Host 192.168.1.1](screenshot_host_192.168.1.1.png)
+![Host 192.168.1.11](screenshot_host_192.168.1.11.png)
+![Host 192.168.1.40](screenshot_host_192.168.1.40.png)
+
 
 ## Detailed Findings
 

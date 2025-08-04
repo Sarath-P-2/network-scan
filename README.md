@@ -25,7 +25,7 @@ sudo nmap -sV 192.168.1.40
 
 # Save scan results to text file
 sudo nmap -sS 192.168.1.0/24 -oN scan_result.txt
-
+```
 ---
 
 ##  Network Details

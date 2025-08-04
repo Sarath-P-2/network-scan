@@ -12,6 +12,22 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
+## 💻 Commands Used
+
+```bash
+# Full network TCP SYN scan
+sudo nmap -sS 192.168.1.0/24
+
+# Version detection on specific hosts
+sudo nmap -sV 192.168.1.1
+sudo nmap -sV 192.168.1.11
+sudo nmap -sV 192.168.1.40
+
+# Save scan results to text file
+sudo nmap -sS 192.168.1.0/24 -oN scan_result.txt
+
+---
+
 ##  Network Details
 - **Scanned Range**: `192.168.1.0/24`
 - **Total Hosts Detected**: 13

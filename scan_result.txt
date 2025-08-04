@@ -1,1 +1,82 @@
+# Nmap 7.95 scan initiated Mon Aug  4 03:26:10 2025 as: /usr/lib/nmap/nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for RTK_GW (192.168.1.1)
+Host is up (0.0052s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: F8:C4:F3:XX:XX:XX (Shanghai Infinity Wireless Technologies)
 
+Nmap scan report for parushuram (192.168.1.11)
+Host is up (0.075s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+MAC Address: A8:93:4A:XX:XX:XX (Chongqing Fugui Electronics)
+
+Nmap scan report for M2101K7BI (192.168.1.15)
+Host is up (0.017s latency).
+All 1000 scanned ports on M2101K7BI (192.168.1.15) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 56:42:5B:XX:XX:XX (Unknown)
+
+Nmap scan report for MaruthiReddy (192.168.1.19)
+Host is up (0.11s latency).
+All 1000 scanned ports on MaruthiReddy (192.168.1.19) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 60:E9:AA:XX:XX:XX (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for DESKTOP-H4A587G (192.168.1.21)
+Host is up (0.00017s latency).
+All 1000 scanned ports on DESKTOP-H4A587G (192.168.1.21) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 50:76:AF:xx:xx:XX (Intel Corporate)
+
+Nmap scan report for V2031 (192.168.1.40)
+Host is up (0.012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+1719/tcp filtered h323gatestat
+1720/tcp filtered h323q931
+MAC Address: 86:DB:39:XX:XX:XX (Unknown)
+
+Nmap scan report for OnePlus-Nord-2T-5G (192.168.1.47)
+Host is up (0.0081s latency).
+All 1000 scanned ports on OnePlus-Nord-2T-5G (192.168.1.47) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 12:9A:A1:XX:XX:XX (Unknown)
+
+Nmap scan report for realme-7 (192.168.1.52)
+Host is up (0.013s latency).
+All 1000 scanned ports on realme-7 (192.168.1.52) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: A6:E7:8C:XX:XX:XX (Unknown)
+
+Nmap scan report for OnePlus-Nord-4 (192.168.1.53)
+Host is up (0.013s latency).
+All 1000 scanned ports on OnePlus-Nord-4 (192.168.1.53) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5E:26:44:XX:XX:XX (Unknown)
+
+Nmap scan report for realme-8i (192.168.1.54)
+Host is up (0.0071s latency).
+All 1000 scanned ports on realme-8i (192.168.1.54) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5E:54:B3:XX:XX:XX (Unknown)
+
+Nmap scan report for 192.168.1.57
+Host is up (0.000014s latency).
+All 1000 scanned ports on 192.168.1.57 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for kali (192.168.1.66)
+Host is up (0.000015s latency).
+All 1000 scanned ports on kali (192.168.1.66) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 03:26:37 2025 -- 256 IP addresses (12 hosts up) scanned in 27.00 seconds

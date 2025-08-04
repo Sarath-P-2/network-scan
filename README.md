@@ -1,4 +1,4 @@
-#  Network Scan - Task 1: Local Network Port Scanning
+#  Network Scan : Local Network Port Scanning
 
 ##  Objective
 Perform a local network scan using Nmap to identify active hosts, open ports, and exposed services to evaluate basic network security posture.

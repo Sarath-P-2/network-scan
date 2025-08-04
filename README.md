@@ -22,7 +22,7 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 | Description             | Screenshot |
 |-------------------------|------------|
-| Full Network Scan       | ![Full Network Scan](screenshot_full_scan.png) |
+| Full Network Scan       | ![Full Network Scan](scan_result.txt) |
 | Host: 192.168.1.1       | ![Host 192.168.1.1](screenshot_host_192.168.1.1.png) |
 | Host: 192.168.1.11      | ![Host 192.168.1.11](screenshot_host_192.168.1.11.png) |
 | Host: 192.168.1.40      | ![Host 192.168.1.40](screenshot_host_192.168.1.40.png) |

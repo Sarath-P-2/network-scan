@@ -12,7 +12,7 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
-## 💻 Commands Used
+## Commands Used
 
 ```bash
 # Full network TCP SYN scan

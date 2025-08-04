@@ -1,24 +1,24 @@
-# 🔍 Network Scan - Task 1: Local Network Port Scanning
+#  Network Scan - Task 1: Local Network Port Scanning
 
-## 🎯 Objective
+##  Objective
 Perform a local network scan using Nmap to identify active hosts, open ports, and exposed services to evaluate basic network security posture.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - **Nmap** (Port scanning)
 - **Kali Linux** (Operating System)
 - **Screenshot tool** (Visual documentation)
 
 ---
 
-## 🌐 Network Details
+##  Network Details
 - **Scanned Range**: `192.168.1.0/24`
 - **Total Hosts Detected**: 13
 
 ---
 
-## 📸 Scan Screenshots
+##  Scan Screenshots
 
 | Description             | Screenshot |
 |-------------------------|------------|
@@ -29,9 +29,9 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
-## 📋 Detailed Findings
+##  Detailed Findings
 
-### 🖥 192.168.1.1 (RTK_GW)
+###  192.168.1.1 (RTK_GW)
 - **Open Ports**: 53, 80, 443
 - **Services Detected**:
   - DNS: `dnsmasq 2.45`
@@ -43,7 +43,7 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
-### 🖥 192.168.1.11
+###  192.168.1.11
 - **Open Port**: 7070 (SSL RealServer or unidentified SSL service)
 - **Observations**:
   - Possibly a **media server** or **IoT device**
@@ -51,7 +51,7 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
-### 🖥 192.168.1.40 (V2031)
+###  192.168.1.40 (V2031)
 - **No open ports**, but filtered ports suggest:
   - Port 1719: H.323 Gatekeeper (VoIP)
   - Port 1720: H.323 Signaling (Video calling systems)
@@ -61,14 +61,14 @@ Perform a local network scan using Nmap to identify active hosts, open ports, an
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 The scan revealed a typical small network with a variety of devices:
 - Some running **outdated services** (Boa HTTPd)
 - Others exposing **unknown or filtered ports**
 - No critical remote-access ports (like SSH, Telnet) were open
 
-🔐 **Recommendations**:
+ **Recommendations**:
 - Update or replace outdated services (e.g., Boa HTTPd)
 - Limit web admin interface access with firewall rules
 - Monitor devices exposing uncommon or unidentified ports
@@ -76,7 +76,7 @@ The scan revealed a typical small network with a variety of devices:
 
 ---
 
-📁 **Repo Files Included**
+ **Repo Files Included**
 - `scan_result.txt`: Full scan output
 - Screenshots of each scan
 - This `README.md` as a task summary
